@@ -3,7 +3,7 @@ title: "Homework 1"
 format: html
 ---
 
-__Name:__ \<your name here\>
+__Name:__ \<AK Keskin>
 
 
 __Question 1:__ Use a programming language of your choice to save today's date to a variable.
