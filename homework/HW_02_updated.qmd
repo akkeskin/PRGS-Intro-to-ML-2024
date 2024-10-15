@@ -106,16 +106,7 @@ missing_values_svi.columns = ['Column', 'Missing_Values']
 print(missing_values_svi)
 
 
-# Impute missing values in 'EP_POV150' with the median value of the column
-median_pov150 = svi_subset['EP_POV150'].median()
-svi_subset['EP_POV150'].fillna(median_pov150, inplace=True)
 
-
-# Create a new column to indicate whether 'EP_POV150' was originally missing
-svi_subset['EP_POV150_Missing'] = svi_data['EP_POV150'].isnull()
-
-# Save the cleaned SVI data to a new CSV file
-svi_subset.to_csv('cleaned_svi_data.csv', index=False)
 ```
 
 
